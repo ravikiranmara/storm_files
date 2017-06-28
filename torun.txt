@@ -1,0 +1,4 @@
+sudo update-alternatives --config java  
+sudo vim /etc/environment 
+Add Entry >> JAVA_HOME="/usr/lib/jvm/java-8-oracle" 
+source /etc/environment
